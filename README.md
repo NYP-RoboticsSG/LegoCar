@@ -17,7 +17,7 @@ To run this python file and all dependencies:
 
 ## Updating and installing dependencies
 5. Ensure the time is correct on brick, factor in timezone by runnning `date` on SSH
-a. If time is not synced, run
+If time is not synced, run
 ```
 sudo service ntp stop
 sudo ntpd -gq
