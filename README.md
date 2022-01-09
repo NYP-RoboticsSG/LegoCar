@@ -14,11 +14,9 @@ To run this python file and all dependencies:
     - Bluetooth: [https://www.ev3dev.org/docs/tutorials/connecting-to-the-internet-via-bluetooth/]
 5. Ensure the time is correct on brick, factor in timezone by runnning `date` on SSH
     a. If time is not synced, run
-        ```sh
-        sudo service ntp stop
+        ```sudo service ntp stop
         sudo ntpd -gq
-        sudo service ntp start
-        ```
+        sudo service ntp start```
     and restart the brick
 6. Run `sudo apt update && sudo apt upgrade` (may take up to 1 hour)
 7. Once updates is complete, restart brick
