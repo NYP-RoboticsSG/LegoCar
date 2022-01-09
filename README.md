@@ -33,7 +33,7 @@ sudo service ntp start
 11. Installing essentials for building module:
     - `sudo apt install build-essential python3-dev flex bison bluez-tools bluez-hcidump bluez autotools-dev automake g++ libcwiid1`
 12. Enter the folder you cloned earlier `cd python3-wiimote`
-13. Run the following build commands
+13. Run the following build commands one by one (will take about 1 to 2 hours overall)
 ```sh
 aclocal
 autoconf
